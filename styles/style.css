@@ -1,14 +1,14 @@
-
+@import url(fonts.css);
 @import url(header.css);
 @import url(card-main-info.css);
-@import url(fonts.css);
-@import url(styles/card-education.css);
-@import url(styles/skills.css);
+@import url(card-main-info-about-me.css);
+@import url(card-education.css);
+@import url(skills.css);
 
 body{
   margin: 0;
   padding: 0;
-  background-color: var(--text-color);
+  background-color: var(--main-bg-color);
   }
 
 main{
