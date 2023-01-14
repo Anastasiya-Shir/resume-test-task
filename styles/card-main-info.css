@@ -1,5 +1,5 @@
-@import url(/styles/constants.css);
-@import url(/styles/fonts.css);
+@import url(constants.css);
+@import url(fonts.css);
 
 .card-main-info{
   display: flex;
