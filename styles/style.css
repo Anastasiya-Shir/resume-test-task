@@ -1,9 +1,9 @@
 
-@import url(./header.css);
-@import url(./card-main-info.css);
-@import url(./fonts.css);
-@import url(./styles/card-education.css);
-@import url(./styles/skills.css);
+@import url(header.css);
+@import url(card-main-info.css);
+@import url(fonts.css);
+@import url(styles/card-education.css);
+@import url(styles/skills.css);
 
 body{
   margin: 0;
