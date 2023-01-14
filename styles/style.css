@@ -4,6 +4,11 @@
 @import url(./fonts.css);
 @import url(./styles/card-education.css);
 @import url(./styles/skills.css);
+:root {
+  --main-bg-color:#262525;
+  --text-color: red;
+  --green:#06A763;
+}
 
 body{
   margin: 0;
