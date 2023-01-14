@@ -1,0 +1,74 @@
+@import url(/styles/constants.css);
+@import url(/styles/fonts.css);
+
+.card-main-info{
+  display: flex;
+ justify-content: space-between;
+ height: 60vh;
+  background: var(--main-bg-color); 
+ width: 60%;
+ padding: 12px 0 12px 40px; 
+ box-sizing:border-box;
+ box-shadow: 0 0 8px 2px #000;
+ position: absolute;
+ top: 30%;
+ margin-bottom: 120px;
+ margin-bottom: 5px;
+ animation-name: slideUp;
+ animation-duration:2s; 
+ animation-timing-function: ease;
+ visibility: visible ;
+}
+
+h1{
+  font-family: 'Popins';
+  font-weight: 700;
+  font-size: 1.5em;  
+  color: var(--text-color);
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+h2{
+  font-family: 'Popins';
+  font-weight:600;
+  font-size: 30px;  
+  color: var(--text-color);
+  margin: 0px 0px 50px 0px;
+}
+
+.card-main-info p{
+  font-family: 'Popins';
+  font-weight: 400;
+  font-size: 1em;  
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+#my-photo{
+  width: 90%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.network{
+  margin: 20px 0;
+}
+
+.logo-social-network{
+  height: 40px;
+  margin-right: 5px;
+}
+
+.card-main-info article{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-main-info article .img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 5px;
+    justify-content: space-around;
+}

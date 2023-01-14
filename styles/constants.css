@@ -1,0 +1,16 @@
+:root {
+  --main-bg-color:#262525;
+  --text-color: #7b7b7b;
+  --green:#06A763;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+

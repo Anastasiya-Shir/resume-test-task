@@ -1,0 +1,67 @@
+@import url(/styles/constants.css);
+@import url(/styles/fonts.css);
+
+
+.skills{
+  position: absolute;
+  top:230%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 60%;
+  height: 70vh;
+  animation-name: slideUp;
+  animation-duration:6s;  
+  animation-timing-function: ease; 
+  visibility: visible ;
+ background-color: var(--green);
+ box-shadow: 0 0 8px 2px #000;
+ animation-name: slideUp;
+ animation-duration:8s; 
+ animation-timing-function: ease;
+ visibility: visible;
+}
+
+.skills section{
+  width:30% ;
+  height: 100%;
+color: #262525;
+}
+
+.skills section h2{
+  height:15%;
+  color: var(--main-bg-color);
+  font-size: 24px;
+  text-align: center;
+  padding: 0;
+  padding: 0 3%;
+  margin: 0;
+}
+
+.skills_character{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.skills_character h3{
+color: var(--main-bg-color); 
+font-family: 'Popins';
+font-weight:400;
+padding: 0;
+}
+
+.skills_progress-bar{
+  margin: 0 2%;
+  width: 96%;
+  height: 6px;
+  background-color:var(--text-color);
+  border-radius: 6px;
+}
+
+.skills_progress-bar div{
+  height: 100%;
+  background-color: var(--main-bg-color);
+  border-radius: 6px;
+}
