@@ -1,0 +1,44 @@
+@import url(constants.css);
+@import url(fonts.css);
+
+.hobby{
+  position: absolute;
+  top:307%;
+  background-color:var(--main-bg-color);
+  width: 60%;
+  height: 40vh; 
+  animation-name: slideUp;
+  animation-duration:14s;  
+  animation-timing-function: ease; 
+  visibility: visible ;
+  box-shadow: 0 0 8px 2px #000;
+  padding: 2%;
+  box-sizing:border-box;
+  font-family: "Popins";
+  color:var(--text-color);
+
+ }
+
+.hobby img{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5px;
+  animation-name: slideUp;
+  margin: 0, 15px;
+ }
+
+.hobby_image{  
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .hobby_image :nth-child(odd){
+  background-color: var(--green
+  );
+  padding: 3% 13% ;
+ }
+
+ .hobby_image :nth-child(even){
+  color: var(--green);
+  padding: 3% 13% ;
+ }

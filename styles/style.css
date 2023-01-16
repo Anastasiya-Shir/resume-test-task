@@ -4,16 +4,20 @@
 @import url(card-main-info-about-me.css);
 @import url(card-education.css);
 @import url(skills.css);
+@import url(hobby.css);
+@import url(footer.css);
 
 body{
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
+  height: 2700px;
   }
 
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
   }
   

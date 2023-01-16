@@ -1,5 +1,5 @@
-@import url(/styles/constants.css);
-@import url(/styles/fonts.css);
+@import url(constants.css);
+@import url(fonts.css);
 
 
 .skills{
@@ -20,6 +20,8 @@
  animation-duration:8s; 
  animation-timing-function: ease;
  visibility: visible;
+ padding: 2%;
+ box-sizing: border-box;
 }
 
 .skills section{
