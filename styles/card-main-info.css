@@ -72,3 +72,31 @@ h2{
     margin-right: 5px;
     justify-content: space-around;
 }
+
+@media (max-width: 768px) {
+  .card-main-info{
+    flex-direction: column-reverse;
+  }
+  #my-photo{  
+  height: 340px;
+  border-radius: 30px;
+}
+.card-main-info{
+  font-size: 11px;
+}
+.card-main-info article .img{
+  width: 6px;
+}
+.card-main-info h2{
+font-size: 15px;
+}
+.logo-social-network{
+  height: 30px;
+  margin-right: 5px;
+}}
+
+@media (max-width: 374px){
+  .card-main-info{
+    font-size: 8px;
+  }
+}

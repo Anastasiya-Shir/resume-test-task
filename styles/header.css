@@ -1,7 +1,7 @@
 header{
   background-image: url(../image/code.jpeg);
   height: 50vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-attachment: fixed;
 }
 

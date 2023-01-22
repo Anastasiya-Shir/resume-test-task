@@ -33,7 +33,7 @@ color: #262525;
 .skills section h2{
   height:15%;
   color: var(--main-bg-color);
-  font-size: 24px;
+  font-size: 130%;
   text-align: center;
   padding: 0;
   padding: 0 3%;
@@ -52,6 +52,7 @@ color: var(--main-bg-color);
 font-family: 'Popins';
 font-weight:400;
 padding: 0;
+font-size: 90%;
 }
 
 .skills_progress-bar{
@@ -66,4 +67,49 @@ padding: 0;
   height: 100%;
   background-color: var(--main-bg-color);
   border-radius: 6px;
+}
+
+@media(max-width:978px){
+  .skills{
+    flex-direction: column;
+    height: 160vh;
+    
+  }
+  .skills section{
+    height: 30%;
+    width: 80%;
+  }
+
+  .skills_character h3{
+    font-size: 15px;
+    height: 20px;  
+    margin-bottom:7px ;
+    }
+
+  .skills_progress-bar{
+    margin: 0 4px;
+    width: 96%;
+    height: 4px;
+       border-radius: 6px;
+  }
+
+  .skills section h2{
+   font-size: 10px;
+    color: var(--main-bg-color);
+    font-size: 17px;
+    text-align: center;   
+    margin: 4px;
+  }
+  
+}
+@media(max-width:378px){
+  .skills{   
+    height: 120vh;
+    
+  }
+  .skills_character h3{
+    font-size: 12px;
+    height: 20px;  
+    margin-bottom:7px ;
+    }
 }

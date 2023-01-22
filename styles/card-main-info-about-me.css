@@ -46,3 +46,12 @@ color: var(--text-color);
   cursor:pointer;
   box-shadow: 0 0 8px 2px #000;
 }
+
+@media(max-width:468px){
+  .main-info_buttons button{
+    font-size: 8px;
+  }
+  .main-info p{
+    font-size: 12px;
+  }
+}

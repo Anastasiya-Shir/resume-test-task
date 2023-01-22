@@ -11,13 +11,13 @@ body{
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
-  height: 2700px;
+  height: 360vh;
   }
 
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   }
   

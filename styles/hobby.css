@@ -42,3 +42,33 @@
   color: var(--green);
   padding: 3% 13% ;
  }
+
+ @media(max-width:978px){
+  .hobby{
+    top:400%;
+  }
+ }
+
+ @media(max-width:616px){
+  .hobby img{
+    height: 20px;
+    width: 20px;
+  }
+.hobby{
+  font-size: 13px;
+}
+ }
+ @media(max-width:386px){
+  .hobby img{
+    height:15px;
+    width: 15px;
+  }
+.hobby{
+  font-size: 11px;
+}
+ }
+
+ @media(max-width:378px){
+  .hobby{
+    top:360%;
+  }}

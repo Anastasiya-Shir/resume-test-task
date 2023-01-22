@@ -68,3 +68,45 @@ margin: 0;
 .education_cards .educatiun_cards_year{
   height: 5%;
 }
+
+@media(max-width:990px){
+  .education_cards {
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+  }
+  .education_cards h2{
+    font-size: 20px;
+    height: 15%;
+  }
+  .education_cards h3{
+    font-size: 15px;
+    height: 20%;
+  }
+  .education_cards p{
+    font-size: 13px;
+    height:55%;
+  }
+  .education_cards .educatiun_cards_year{
+    height: 7%;
+  }
+  
+}
+
+@media(max-width:578px){
+  .education_cards {
+    height: 90vh;
+      }
+  .education_cards h2{
+    font-size: 15px;
+    height: 15%;
+  }
+  .education_cards h3{
+    font-size: 12px;
+   
+  }
+  .education_cards p{
+    font-size: 10px;  
+  }
+
+}
